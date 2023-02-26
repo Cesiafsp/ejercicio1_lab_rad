@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ejercicio1_lab_rad.Views.PageAlums">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Entry x:Name="txtnombre" 
+                   Placeholder="Nombres" 
+                   Keyboard="Text"
+                   Margin="10,10,10,0"/>
+
+            <Entry x:Name="txtapellidos" 
+                   Placeholder="Apellidos" 
+                   Keyboard="Text" 
+                    Margin="10,10,10,0"/>
+
+            <Entry x:Name="txtedad" 
+                   Placeholder="Edad" 
+                   Keyboard="Text" 
+                    Margin="10,10,10,0"/>
+
+            <Entry x:Name="txtcorreo" 
+                   Placeholder="Correo Electronico" 
+                   Keyboard="Email" 
+                    Margin="10,10,10,0"/>
+
+
+
+            <Button x:Name="btnmostrar"
+                    Text="Enviar Informacion" 
+                    Clicked="btnmostrar_Clicked" 
+                     Margin="10,10,10,0"
+                    BackgroundColor="Yellow"/>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
