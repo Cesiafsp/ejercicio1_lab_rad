@@ -25,14 +25,19 @@
                    Keyboard="Email" 
                     Margin="10,10,10,0"/>
 
+            <Entry x:Name="txtdireccion" 
+                   Placeholder="Direccion" 
+                   Keyboard="Text" 
+                    Margin="10,10,10,0"/>
+
 
 
             <Button x:Name="btnmostrar"
-                    Text="Enviar Informacion" 
+                    Text="Salvar" 
                     Clicked="btnmostrar_Clicked" 
                      Margin="10,10,10,0"
                     BackgroundColor="Yellow"/>
-
+ 
 
         </StackLayout>
     </ContentPage.Content>

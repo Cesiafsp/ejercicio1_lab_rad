@@ -25,6 +25,7 @@ namespace ejercicio1_lab_rad.Views
                 Apellidos = txtapellidos.Text,
                 Edad = txtedad.Text,
                 Correo = txtcorreo.Text,
+                Direccion = txtdireccion.Text,
 
             };
 
